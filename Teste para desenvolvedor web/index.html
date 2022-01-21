@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f096aefd5b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>Teste para desenvolvedor web</title>
+
+    
+</head>
+
+<body>
+
+
+
+    <form action="#" autocomplete="on" id="container-form">
+
+        <img src="img/logotipo.png" alt="logotipo">
+
+        <div class="input-container">
+            <i class="fas fa-user"></i>
+            <!--icone baixado fontawesome-->
+            <input class="input-entrada" type="text" id="user" name="usuario" placeholder="Username" >
+        </div>
+
+        <div class="input-container" id="pass" >
+            <i class="fas fa-lock"></i>
+            <!--icone baixado fontawesome-->
+            <input class="input-entrada" type="password" id="password" name="password" placeholder="Password">
+        </div>
+
+        <br>
+
+
+
+        <div id="config">
+            <div id="con"><input type="checkbox" id="lembrar" name="lembrar">
+                <label for="lembrar"> Remember me</label>
+            </div>
+
+            <div id="con"><span>Forgot password?</span></div>
+        </div>
+
+        <button type="submit" id="btn" onclick="validar()" >LOGIN</button>
+    </form>
+
+    </div>
+    <script src="appp.js"></script>
+</body>
+
+</html>

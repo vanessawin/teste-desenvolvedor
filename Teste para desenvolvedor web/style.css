@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+
+
+
+form {
+    margin-top: 3%;
+    width: 450px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #000066 66%, #ff99cc 96%);
+    
+    
+}
+
+form img {
+        width: 40%;
+        height: 35%;
+        margin-bottom: 20px;
+        
+    }
+form  .input-container {
+   
+    display: flex;
+    width: 80%;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+
+}
+.fa-user , .fa-lock{
+    padding: 10px;
+    color: rgb(27, 39, 90);
+    min-width: 30px;
+    text-align: center;
+    
+
+}
+#pass {
+    margin: 0;
+}
+
+.input-entrada {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+
+#config {
+    width: 80%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #ffffff;
+    margin-bottom: 40px;
+
+}
+
+#con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn {
+    background-color: rgb(58, 50, 50);
+    color: blanchedalmond;
+
+    padding: 15px 20px;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(44, 34, 22);
+}
