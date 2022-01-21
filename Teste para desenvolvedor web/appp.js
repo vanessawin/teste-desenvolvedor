@@ -25,8 +25,9 @@ function validar() {
     }
 
 }
-    // redirecionado para página https://www.showdeimagem.com.br 
+if (usuario & passowrd === true){
     var btn = document.querySelector('button');
     btn.addEventListener('click', function() {
     window.open ("https://www.showdeimagem.com.br ", " _blank")
 })
+}
