@@ -1,8 +1,10 @@
+document.getElementById("btn").addEventListener("click", validar);
+
 function validar() {
     // pegando o valor  do campo userneme pelo id
     var usuario = document.getElementById("user").value
     var passowrd = document.getElementById("password").value
-    var lembrar = document.getElementById("lembrar").checked
+    var lembrar = document.getElementById("lembrar")
 
        
 
@@ -18,9 +20,11 @@ function validar() {
         alert('Preecha o passoword')
 
         return false
+    }else {
+       window.location.assign("https://www.w3schools.com")
     }
 
-    
+    Btn.click()
 }
 
     
